@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.css' integrity='sha512-bR79Bg78Wmn33N5nvkEyg66hNg+xF/Q8NA8YABbj+4sBngYhv9P8eum19hdjYcY7vXk/vRkhM3v/ZndtgEXRWw==' crossorigin='anonymous'/>
+
+  <link rel="stylesheet" href="css/style.css">
+
+    <title>js-mail-dadi</title>
+</head>
+<body>
+    <h1 id="pageTitle">Controllo Accesso</h1>
+    <form id="accessForm">
+        <div id="emailGroup">
+            <label for="email">Inserisci la tua email:</label>
+            <input type="email" id="email" required>
+        </div>
+        <button type="button" id="verifyAccess">Verifica Accesso</button>
+    </form>
+    <button id="rollDice" style="display: none;">Lancia!</button>
+    <p id="message"></p>
+    <p id="result" style="display: none;"></p>
+    <script src="js/script.js"></script>
+</body>
+</html>
